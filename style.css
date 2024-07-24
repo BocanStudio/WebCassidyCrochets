@@ -16,3 +16,9 @@ html, body{
 a{
     text-decoration: none;
 }
+
+.card-home{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
