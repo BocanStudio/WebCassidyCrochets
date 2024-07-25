@@ -60,3 +60,33 @@ li.nav-button:hover{
     width: 50%;
     text-align: center;
 }
+
+.card-footer{
+    bottom: 0;
+    width: 100%;
+    min-height: 20px;
+    background-color: rgba(238, 130, 238, 40);
+    display: grid;
+    align-items: center;
+}
+
+.footer-text{
+    margin: auto;
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.footer-links{
+    margin: auto;
+    margin-right: 20px;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+}
+
+.fa{
+    font-size: 20px;
+    margin: 3px 6px;
+}
