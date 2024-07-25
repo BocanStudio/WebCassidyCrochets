@@ -54,6 +54,14 @@ li.nav-button:hover{
     text-decoration: underline;
 }
 
+.header-links{
+    margin: auto;
+    margin-left: 20px;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+}
+
 .card-home{
     padding-top: 20px;
     margin: auto;
