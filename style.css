@@ -5,7 +5,11 @@ html{
 }
 
 html, body{
+    min-height: 100%;
     height: 100%;
+    width: 100%;
+    display: table;
+    margin: 0;
 }
 
 *{
@@ -70,12 +74,12 @@ li.nav-button:hover{
 }
 
 .card-footer{
-    bottom: 0;
     width: 100%;
-    min-height: 20px;
+    height: 0;
     background-color: rgba(238, 130, 238, 40);
-    display: grid;
-    align-items: center;
+    display: table-row;
+    position: relative;
+
 }
 
 .footer-text{
@@ -89,9 +93,9 @@ li.nav-button:hover{
 .footer-links{
     margin: auto;
     margin-right: 20px;
-    align-items: center;
     position: absolute;
     right: 10px;
+    bottom: 10px;
 }
 
 .fa{
