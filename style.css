@@ -71,6 +71,7 @@ li.nav-button:hover{
     margin: auto;
     width: 50%;
     text-align: center;
+    padding-bottom: 500px;
 }
 
 .card-footer{
