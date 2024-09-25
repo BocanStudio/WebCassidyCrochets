@@ -67,28 +67,19 @@ li.nav-button:hover{
     display: flex;
 }
 
-.card-dev{
-    top: 30px;
-    width: 100%;
-    background-color: orange;
-    position: relative;
-    text-align: center;
-    font-size: 13px;
-}
-
 .card-home{
-    padding-top: 50px;
+    padding-top: 70px;
     margin: auto;
     width: 70%;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .card-featured{
     margin: auto;
     width: 100%;
     min-height: 340px;
-    background-color: #ffc175;
+    background-color: #faca8e;
     position: relative;
 }
 
@@ -110,8 +101,23 @@ li.nav-button:hover{
     vertical-align: middle;
 }
 
-.card-next{
-    padding-bottom: 300px;
+.card-next1{
+    min-height: 340px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.card-next2{
+    min-height: 340px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #faca8e;
+}
+
+.card-next3{
+    min-height: 340px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .card-footer{
